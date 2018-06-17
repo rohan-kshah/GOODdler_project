@@ -12,6 +12,7 @@
 		FE974A6D20D6D2440091ED1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE974A6B20D6D2440091ED1D /* Main.storyboard */; };
 		FE974A6F20D6D2450091ED1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE974A6E20D6D2450091ED1D /* Assets.xcassets */; };
 		FE974A7220D6D2450091ED1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE974A7020D6D2450091ED1D /* LaunchScreen.storyboard */; };
+		FE974A7A20D6DF370091ED1D /* magical-castle-background.png in Resources */ = {isa = PBXBuildFile; fileRef = FE974A7920D6DF370091ED1D /* magical-castle-background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FE974A6E20D6D2450091ED1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE974A7120D6D2450091ED1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE974A7320D6D2450091ED1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE974A7920D6DF370091ED1D /* magical-castle-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magical-castle-background.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				FE974A6720D6D2440091ED1D /* AppDelegate.swift */,
 				FE974A6920D6D2440091ED1D /* ViewController.swift */,
 				FE974A6B20D6D2440091ED1D /* Main.storyboard */,
+				FE974A7920D6DF370091ED1D /* magical-castle-background.png */,
 				FE974A6E20D6D2450091ED1D /* Assets.xcassets */,
 				FE974A7020D6D2450091ED1D /* LaunchScreen.storyboard */,
 				FE974A7320D6D2450091ED1D /* Info.plist */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE974A7A20D6DF370091ED1D /* magical-castle-background.png in Resources */,
 				FE974A7220D6D2450091ED1D /* LaunchScreen.storyboard in Resources */,
 				FE974A6F20D6D2450091ED1D /* Assets.xcassets in Resources */,
 				FE974A6D20D6D2440091ED1D /* Main.storyboard in Resources */,
