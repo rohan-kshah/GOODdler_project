@@ -13,6 +13,12 @@
 		FE974A6F20D6D2450091ED1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE974A6E20D6D2450091ED1D /* Assets.xcassets */; };
 		FE974A7220D6D2450091ED1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE974A7020D6D2450091ED1D /* LaunchScreen.storyboard */; };
 		FE974A7A20D6DF370091ED1D /* magical-castle-background.png in Resources */ = {isa = PBXBuildFile; fileRef = FE974A7920D6DF370091ED1D /* magical-castle-background.png */; };
+		FE974A7C20DA05A30091ED1D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A7B20DA05A30091ED1D /* LoginViewController.swift */; };
+		FE974A7E20DA05C10091ED1D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A7D20DA05C10091ED1D /* SignUpViewController.swift */; };
+		FE974A8020DA05ED0091ED1D /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A7F20DA05ED0091ED1D /* CategoryViewController.swift */; };
+		FE974A8220DA06220091ED1D /* GrammarOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A8120DA06220091ED1D /* GrammarOneViewController.swift */; };
+		FE974A8420DA06440091ED1D /* VocabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A8320DA06440091ED1D /* VocabOneViewController.swift */; };
+		FE974A8620DA06650091ED1D /* ComprehensionOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A8520DA06650091ED1D /* ComprehensionOneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		FE974A7120D6D2450091ED1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE974A7320D6D2450091ED1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE974A7920D6DF370091ED1D /* magical-castle-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magical-castle-background.png"; sourceTree = "<group>"; };
+		FE974A7B20DA05A30091ED1D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FE974A7D20DA05C10091ED1D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FE974A7F20DA05ED0091ED1D /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		FE974A8120DA06220091ED1D /* GrammarOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarOneViewController.swift; sourceTree = "<group>"; };
+		FE974A8320DA06440091ED1D /* VocabOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabOneViewController.swift; sourceTree = "<group>"; };
+		FE974A8520DA06650091ED1D /* ComprehensionOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprehensionOneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				FE974A6720D6D2440091ED1D /* AppDelegate.swift */,
 				FE974A6920D6D2440091ED1D /* ViewController.swift */,
 				FE974A6B20D6D2440091ED1D /* Main.storyboard */,
+				FE974A8520DA06650091ED1D /* ComprehensionOneViewController.swift */,
+				FE974A8320DA06440091ED1D /* VocabOneViewController.swift */,
+				FE974A8120DA06220091ED1D /* GrammarOneViewController.swift */,
+				FE974A7F20DA05ED0091ED1D /* CategoryViewController.swift */,
+				FE974A7D20DA05C10091ED1D /* SignUpViewController.swift */,
+				FE974A7B20DA05A30091ED1D /* LoginViewController.swift */,
 				FE974A7920D6DF370091ED1D /* magical-castle-background.png */,
 				FE974A6E20D6D2450091ED1D /* Assets.xcassets */,
 				FE974A7020D6D2450091ED1D /* LaunchScreen.storyboard */,
@@ -139,7 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE974A8420DA06440091ED1D /* VocabOneViewController.swift in Sources */,
+				FE974A8020DA05ED0091ED1D /* CategoryViewController.swift in Sources */,
+				FE974A8620DA06650091ED1D /* ComprehensionOneViewController.swift in Sources */,
+				FE974A7C20DA05A30091ED1D /* LoginViewController.swift in Sources */,
 				FE974A6A20D6D2440091ED1D /* ViewController.swift in Sources */,
+				FE974A8220DA06220091ED1D /* GrammarOneViewController.swift in Sources */,
+				FE974A7E20DA05C10091ED1D /* SignUpViewController.swift in Sources */,
 				FE974A6820D6D2440091ED1D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

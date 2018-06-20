@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="-72.0703125" y="207.8125"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="vbX-62-T7V">
             <objects>
-                <viewController id="1NQ-IZ-ppf" sceneMemberID="viewController">
+                <viewController id="1NQ-IZ-ppf" customClass="LoginViewController" customModule="game_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rhq-qR-DKO">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -123,10 +123,10 @@
             </objects>
             <point key="canvasLocation" x="696.875" y="-197.4609375"/>
         </scene>
-        <!--View Controller-->
+        <!--Category View Controller-->
         <scene sceneID="azy-Ac-eTT">
             <objects>
-                <viewController id="vAV-h2-QhO" sceneMemberID="viewController">
+                <viewController id="vAV-h2-QhO" customClass="CategoryViewController" customModule="game_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ha6-kP-nUZ">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -166,6 +166,15 @@
                                 <rect key="frame" x="457" y="415" width="109" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Comprehension"/>
+                                <connections>
+                                    <segue destination="TKJ-Kh-1BO" kind="show" id="rGY-gj-Oq0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoV-dR-NQY">
+                                <rect key="frame" x="45" y="672" width="57" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <state key="normal" title="👈"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -176,10 +185,10 @@
             </objects>
             <point key="canvasLocation" x="1390.4296875" y="147.65625"/>
         </scene>
-        <!--View Controller-->
+        <!--Grammar One View Controller-->
         <scene sceneID="bYM-Ys-Crs">
             <objects>
-                <viewController id="XMm-Sk-WVE" sceneMemberID="viewController">
+                <viewController id="XMm-Sk-WVE" customClass="GrammarOneViewController" customModule="game_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gnA-Cp-n0J">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -200,7 +209,7 @@
                                 <state key="normal" title="Sentence Structure"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Bm-fF-dF0">
-                                <rect key="frame" x="176" y="671" width="30" height="30"/>
+                                <rect key="frame" x="73" y="679" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="👈"/>
                                 <connections>
@@ -216,10 +225,10 @@
             </objects>
             <point key="canvasLocation" x="2050" y="-538"/>
         </scene>
-        <!--View Controller-->
+        <!--Vocab One View Controller-->
         <scene sceneID="trQ-Fa-elf">
             <objects>
-                <viewController id="Uae-Le-tKG" sceneMemberID="viewController">
+                <viewController id="Uae-Le-tKG" customClass="VocabOneViewController" customModule="game_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lcp-Na-Cel">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -235,7 +244,7 @@
                                 <state key="normal" title="Level 2"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfE-oX-qCZ">
-                                <rect key="frame" x="197" y="681" width="30" height="30"/>
+                                <rect key="frame" x="85" y="695" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="👈"/>
                                 <connections>
@@ -251,10 +260,35 @@
             </objects>
             <point key="canvasLocation" x="2050" y="239"/>
         </scene>
-        <!--View Controller-->
+        <!--Comprehension One View Controller-->
+        <scene sceneID="OTY-gi-gkK">
+            <objects>
+                <viewController id="TKJ-Kh-1BO" customClass="ComprehensionOneViewController" customModule="game_project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0ik-Lb-BvP">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2r5-pQ-jFx">
+                                <rect key="frame" x="60" y="651" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="👈"/>
+                                <connections>
+                                    <segue destination="vAV-h2-QhO" kind="show" id="Kjj-E8-EjA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bE8-79-be4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a99-9S-e1g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2049.609375" y="905.46875"/>
+        </scene>
+        <!--Sign Up View Controller-->
         <scene sceneID="NNr-GW-cjk">
             <objects>
-                <viewController id="L9J-lG-g3m" sceneMemberID="viewController">
+                <viewController id="L9J-lG-g3m" customClass="SignUpViewController" customModule="game_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AQP-qk-iDQ">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -330,7 +364,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="d2r-z7-Hvd"/>
+        <segue reference="Kjj-E8-EjA"/>
         <segue reference="udL-SA-EOR"/>
     </inferredMetricsTieBreakers>
 </document>
