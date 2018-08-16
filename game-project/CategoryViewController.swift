@@ -5,10 +5,12 @@
 //  Created by Rohan Shah on 6/19/18.
 //  Copyright © 2018 Rohan Shah. All rights reserved.
 //
+// this page goes to the different possible categories
 
 import UIKit
 
 class CategoryViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

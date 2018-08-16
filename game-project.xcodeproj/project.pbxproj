@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBEC9BDD49636EF348D1206C /* Pods_game_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCCE81F386CC9E531A067E5 /* Pods_game_project.framework */; };
+		FE1F6B5220E7171100E2E108 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE1F6B5120E7171100E2E108 /* GoogleService-Info.plist */; };
+		FE1F6B5620E71B0100E2E108 /* ladyBug.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE1F6B5520E71B0100E2E108 /* ladyBug.gif */; };
+		FE1F6B5820E7258900E2E108 /* backgroundHome.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE1F6B5720E7258900E2E108 /* backgroundHome.gif */; };
+		FE1F6B5A20E7285000E2E108 /* ThumbsUp.gif in Resources */ = {isa = PBXBuildFile; fileRef = FE1F6B5920E7285000E2E108 /* ThumbsUp.gif */; };
+		FE1F6B6020E8247400E2E108 /* Skilledreaders.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1F6B5F20E8247300E2E108 /* Skilledreaders.png */; };
+		FE23C89320F848EA005A977D /* speechBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = FE23C89220F848EA005A977D /* speechBubble.png */; };
+		FE23C89520F850EB005A977D /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE23C89420F850EB005A977D /* LeaderboardView.swift */; };
+		FE23C89720F85230005A977D /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE23C89620F85230005A977D /* LeaderboardViewController.swift */; };
 		FE974A6820D6D2440091ED1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A6720D6D2440091ED1D /* AppDelegate.swift */; };
 		FE974A6A20D6D2440091ED1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A6920D6D2440091ED1D /* ViewController.swift */; };
 		FE974A6D20D6D2440091ED1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE974A6B20D6D2440091ED1D /* Main.storyboard */; };
 		FE974A6F20D6D2450091ED1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE974A6E20D6D2450091ED1D /* Assets.xcassets */; };
 		FE974A7220D6D2450091ED1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE974A7020D6D2450091ED1D /* LaunchScreen.storyboard */; };
-		FE974A7A20D6DF370091ED1D /* magical-castle-background.png in Resources */ = {isa = PBXBuildFile; fileRef = FE974A7920D6DF370091ED1D /* magical-castle-background.png */; };
 		FE974A7C20DA05A30091ED1D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A7B20DA05A30091ED1D /* LoginViewController.swift */; };
 		FE974A7E20DA05C10091ED1D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A7D20DA05C10091ED1D /* SignUpViewController.swift */; };
 		FE974A8020DA05ED0091ED1D /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A7F20DA05ED0091ED1D /* CategoryViewController.swift */; };
 		FE974A8220DA06220091ED1D /* GrammarOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A8120DA06220091ED1D /* GrammarOneViewController.swift */; };
 		FE974A8420DA06440091ED1D /* VocabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A8320DA06440091ED1D /* VocabOneViewController.swift */; };
 		FE974A8620DA06650091ED1D /* ComprehensionOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A8520DA06650091ED1D /* ComprehensionOneViewController.swift */; };
+		FE9F9DCD20E68D5C001C234E /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9F9DCC20E68D5C001C234E /* AnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001ED917412124D4BC9E9EB9 /* Pods-game-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-game-project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-game-project/Pods-game-project.debug.xcconfig"; sourceTree = "<group>"; };
+		4CCCE81F386CC9E531A067E5 /* Pods_game_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_game_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D1C9D5106D49C0BA44D2E0 /* Pods-game-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-game-project.release.xcconfig"; path = "Pods/Target Support Files/Pods-game-project/Pods-game-project.release.xcconfig"; sourceTree = "<group>"; };
+		FE1F6B5120E7171100E2E108 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FE1F6B5520E71B0100E2E108 /* ladyBug.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ladyBug.gif; sourceTree = "<group>"; };
+		FE1F6B5720E7258900E2E108 /* backgroundHome.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = backgroundHome.gif; sourceTree = "<group>"; };
+		FE1F6B5920E7285000E2E108 /* ThumbsUp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ThumbsUp.gif; sourceTree = "<group>"; };
+		FE1F6B5F20E8247300E2E108 /* Skilledreaders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skilledreaders.png; sourceTree = "<group>"; };
+		FE23C89220F848EA005A977D /* speechBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speechBubble.png; sourceTree = SOURCE_ROOT; };
+		FE23C89420F850EB005A977D /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		FE23C89620F85230005A977D /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
 		FE974A6420D6D2440091ED1D /* game-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "game-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE974A6720D6D2440091ED1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE974A6920D6D2440091ED1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,13 +49,13 @@
 		FE974A6E20D6D2450091ED1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE974A7120D6D2450091ED1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE974A7320D6D2450091ED1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE974A7920D6DF370091ED1D /* magical-castle-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magical-castle-background.png"; sourceTree = "<group>"; };
 		FE974A7B20DA05A30091ED1D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FE974A7D20DA05C10091ED1D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FE974A7F20DA05ED0091ED1D /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		FE974A8120DA06220091ED1D /* GrammarOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarOneViewController.swift; sourceTree = "<group>"; };
 		FE974A8320DA06440091ED1D /* VocabOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabOneViewController.swift; sourceTree = "<group>"; };
 		FE974A8520DA06650091ED1D /* ComprehensionOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprehensionOneViewController.swift; sourceTree = "<group>"; };
+		FE9F9DCC20E68D5C001C234E /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBEC9BDD49636EF348D1206C /* Pods_game_project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		380B8FDBA5409DB755C3CE4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				001ED917412124D4BC9E9EB9 /* Pods-game-project.debug.xcconfig */,
+				B5D1C9D5106D49C0BA44D2E0 /* Pods-game-project.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A0027DA820EB6C99A6EAEBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CCCE81F386CC9E531A067E5 /* Pods_game_project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FE974A5B20D6D2440091ED1D = {
 			isa = PBXGroup;
 			children = (
 				FE974A6620D6D2440091ED1D /* game-project */,
 				FE974A6520D6D2440091ED1D /* Products */,
+				380B8FDBA5409DB755C3CE4C /* Pods */,
+				7A0027DA820EB6C99A6EAEBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,15 +111,23 @@
 				FE974A6720D6D2440091ED1D /* AppDelegate.swift */,
 				FE974A6920D6D2440091ED1D /* ViewController.swift */,
 				FE974A6B20D6D2440091ED1D /* Main.storyboard */,
-				FE974A8520DA06650091ED1D /* ComprehensionOneViewController.swift */,
-				FE974A8320DA06440091ED1D /* VocabOneViewController.swift */,
+				FE23C89620F85230005A977D /* LeaderboardViewController.swift */,
 				FE974A8120DA06220091ED1D /* GrammarOneViewController.swift */,
+				FE974A8320DA06440091ED1D /* VocabOneViewController.swift */,
+				FE974A8520DA06650091ED1D /* ComprehensionOneViewController.swift */,
 				FE974A7F20DA05ED0091ED1D /* CategoryViewController.swift */,
 				FE974A7D20DA05C10091ED1D /* SignUpViewController.swift */,
 				FE974A7B20DA05A30091ED1D /* LoginViewController.swift */,
-				FE974A7920D6DF370091ED1D /* magical-castle-background.png */,
+				FE1F6B5520E71B0100E2E108 /* ladyBug.gif */,
+				FE23C89420F850EB005A977D /* LeaderboardView.swift */,
+				FE9F9DCC20E68D5C001C234E /* AnimationView.swift */,
+				FE1F6B5720E7258900E2E108 /* backgroundHome.gif */,
+				FE1F6B5920E7285000E2E108 /* ThumbsUp.gif */,
+				FE1F6B5F20E8247300E2E108 /* Skilledreaders.png */,
 				FE974A6E20D6D2450091ED1D /* Assets.xcassets */,
+				FE23C89220F848EA005A977D /* speechBubble.png */,
 				FE974A7020D6D2450091ED1D /* LaunchScreen.storyboard */,
+				FE1F6B5120E7171100E2E108 /* GoogleService-Info.plist */,
 				FE974A7320D6D2450091ED1D /* Info.plist */,
 			);
 			path = "game-project";
@@ -92,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE974A7620D6D2450091ED1D /* Build configuration list for PBXNativeTarget "game-project" */;
 			buildPhases = (
+				3EDD3AF77AE31A407DF0C325 /* [CP] Check Pods Manifest.lock */,
 				FE974A6020D6D2440091ED1D /* Sources */,
 				FE974A6120D6D2440091ED1D /* Frameworks */,
 				FE974A6220D6D2440091ED1D /* Resources */,
+				20542ECBFC65496E583EA09C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,20 +193,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE974A7A20D6DF370091ED1D /* magical-castle-background.png in Resources */,
+				FE1F6B5A20E7285000E2E108 /* ThumbsUp.gif in Resources */,
 				FE974A7220D6D2450091ED1D /* LaunchScreen.storyboard in Resources */,
 				FE974A6F20D6D2450091ED1D /* Assets.xcassets in Resources */,
 				FE974A6D20D6D2440091ED1D /* Main.storyboard in Resources */,
+				FE23C89320F848EA005A977D /* speechBubble.png in Resources */,
+				FE1F6B5220E7171100E2E108 /* GoogleService-Info.plist in Resources */,
+				FE1F6B6020E8247400E2E108 /* Skilledreaders.png in Resources */,
+				FE1F6B5620E71B0100E2E108 /* ladyBug.gif in Resources */,
+				FE1F6B5820E7258900E2E108 /* backgroundHome.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20542ECBFC65496E583EA09C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-game-project/Pods-game-project-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-game-project/Pods-game-project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EDD3AF77AE31A407DF0C325 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-game-project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FE974A6020D6D2440091ED1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE23C89520F850EB005A977D /* LeaderboardView.swift in Sources */,
 				FE974A8420DA06440091ED1D /* VocabOneViewController.swift in Sources */,
 				FE974A8020DA05ED0091ED1D /* CategoryViewController.swift in Sources */,
 				FE974A8620DA06650091ED1D /* ComprehensionOneViewController.swift in Sources */,
@@ -164,7 +267,9 @@
 				FE974A6A20D6D2440091ED1D /* ViewController.swift in Sources */,
 				FE974A8220DA06220091ED1D /* GrammarOneViewController.swift in Sources */,
 				FE974A7E20DA05C10091ED1D /* SignUpViewController.swift in Sources */,
+				FE23C89720F85230005A977D /* LeaderboardViewController.swift in Sources */,
 				FE974A6820D6D2440091ED1D /* AppDelegate.swift in Sources */,
+				FE9F9DCD20E68D5C001C234E /* AnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +411,7 @@
 		};
 		FE974A7720D6D2450091ED1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001ED917412124D4BC9E9EB9 /* Pods-game-project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,7 +420,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.game-project";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.readingapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,6 +429,7 @@
 		};
 		FE974A7820D6D2450091ED1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D1C9D5106D49C0BA44D2E0 /* Pods-game-project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -331,7 +438,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.game-project";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.readingapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
