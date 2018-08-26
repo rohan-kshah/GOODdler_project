@@ -236,6 +236,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="53"/>
                                 <state key="normal" title="👈"/>
+                                <connections>
+                                    <segue destination="1xS-8U-lA8" kind="show" id="2tW-pk-idi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -331,25 +334,24 @@
                                     <segue destination="vAV-h2-QhO" kind="show" id="Kjj-E8-EjA"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Put Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pnc-e3-ZDI">
-                                <rect key="frame" x="494" y="270" width="97" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q42-Kv-92J">
+                                <rect key="frame" x="30" y="40" width="733" height="357"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="52"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShW-2V-fcb">
-                                <rect key="frame" x="535" y="512" width="37" height="30"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2N-hq-p5w">
+                                <rect key="frame" x="166" y="514" width="561" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Enter"/>
-                                <connections>
-                                    <action selector="comprehensionOneButton:" destination="TKJ-Kh-1BO" eventType="touchUpInside" id="eHe-iD-9BV"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="soccer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cuj-ss-4NQ">
-                                <rect key="frame" x="521" y="166" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFz-SC-Jbx">
+                                <rect key="frame" x="375" y="656" width="409" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -358,8 +360,9 @@
                         <viewLayoutGuide key="safeArea" id="bE8-79-be4"/>
                     </view>
                     <connections>
-                        <outlet property="comprehensionScore" destination="pnc-e3-ZDI" id="Izd-p1-bck"/>
-                        <outlet property="comprehensionScoreLabel" destination="cuj-ss-4NQ" id="yZa-Zn-ljP"/>
+                        <outlet property="answerLabel" destination="aFz-SC-Jbx" id="CVc-Lc-zWx"/>
+                        <outlet property="passageLabel" destination="Q42-Kv-92J" id="tle-iG-1WJ"/>
+                        <outlet property="questionLabel" destination="N2N-hq-p5w" id="0hf-qT-q3I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a99-9S-e1g" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -465,8 +468,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="yxD-QC-7hY"/>
-        <segue reference="d2r-z7-Hvd"/>
-        <segue reference="J4B-LD-jcf"/>
+        <segue reference="u2R-Sq-3Xh"/>
+        <segue reference="Kjj-E8-EjA"/>
+        <segue reference="udL-SA-EOR"/>
     </inferredMetricsTieBreakers>
 </document>

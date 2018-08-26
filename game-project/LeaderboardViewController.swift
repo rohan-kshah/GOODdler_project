@@ -10,6 +10,7 @@ import UIKit
 import Firebase
 import FirebaseDatabase
 
+var scores = ["8, 3, 2, 4, 9, 12"]
 class LeaderboardViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return highScores.count
@@ -26,6 +27,11 @@ class LeaderboardViewController: UIViewController, UITableViewDataSource, UITabl
     var highScores = Array<String>()
     var sortableArray = Array<[String:Int]>()
 
+    func sortLeaderboard() {
+        scores.sort()
+        print(scores)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableViewObject.reloadData()

@@ -10,16 +10,20 @@
 import UIKit
 
 class ComprehensionOneViewController: UIViewController {
-    @IBOutlet weak var comprehensionScore: UITextField!
+
+    @IBOutlet weak var answerLabel: UILabel!
+    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var passageLabel: UILabel!
+    var questionMapDic = ["PassageA": ["Question1A": "A1A", "Question2A": "A2A", "Question3A": "A3A", "Question4A": "A4A"], "PassageB": ["Question1B": "A1B", "Question2B": "A2B", "Question3B": "A3B", "Question4B": "A4B"]]
+
     
-    @IBOutlet weak var comprehensionScoreLabel: UILabel!
-    @IBAction func comprehensionOneButton(_ sender: UIButton) {
-        comprehensionScoreLabel.text = comprehensionScore.text
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        passageLabel.text = questionMapDic.keys.first
+        questionLabel.text = questionMapDic["PassageA"]?.keys.first
+        answerLabel.text = questionMapDic["PassageA"]![questionLabel.text!]
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
