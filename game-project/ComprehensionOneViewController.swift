@@ -10,20 +10,87 @@
 import UIKit
 
 class ComprehensionOneViewController: UIViewController {
-
-    @IBOutlet weak var answerLabel: UILabel!
+    let intIndex = 1
+   
+    @IBAction func correctAnswerButton(_ sender: Any) {
+        
+        let alert = UIAlertController(title: "Right Answer!", message: "Click to view next question", preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default) { UIAlertAction in
+           return
+    }
+        alert.addAction(action)
+        self.present(alert, animated: false)
+    }
+    @IBOutlet weak var correctAnswerButtonOutlet: UIButton!
+    
+    @IBOutlet weak var wrongAnswerTwoButtonOutlet: UIButton!
+    @IBAction func wrongAnswerOneButton(_ sender: Any) {
+            let alert = UIAlertController(title: "Wrong Answer!", message:s "Click to try again", preferredStyle: .alert)
+            let action = UIAlertAction(title: "OK", style: .default) { UIAlertAction in
+                return
+        }
+            alert.addAction(action)
+            self.present(alert, animated: false)
+    }
+    
+    func changeQuestion() {
+        // update the question label to be the next thing in the array of questions (or a random one)
+        
+        
+    }
+    
+    @IBAction func wrongAnswerTwoButton(_ sender: Any) {
+        let alert = UIAlertController(title: "Wrong Answer!", message: "Click to try again", preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default) { UIAlertAction in
+            return
+        }
+        alert.addAction(action)
+        self.present(alert, animated: false)
+    }
+    @IBOutlet weak var wrongAnswerOneButtonOutlet: UIButton!
+    
+    
+    @IBAction func wrongAnswerThreeButton(_ sender: Any) {
+        let alert = UIAlertController(title: "Wrong Answer!", message: "Click to try again", preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default) { UIAlertAction in
+            return
+        }
+        alert.addAction(action)
+        self.present(alert, animated: false)
+    }
+    @IBOutlet weak var wrongAnswerThreeButtonOutlet: UIButton!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var passageLabel: UILabel!
-    var questionMapDic = ["PassageA": ["Question1A": "A1A", "Question2A": "A2A", "Question3A": "A3A", "Question4A": "A4A"], "PassageB": ["Question1B": "A1B", "Question2B": "A2B", "Question3B": "A3B", "Question4B": "A4B"]]
-
+   
+    var correctAnswer: String!
+    var passages = ["P1", "P2"]
+    var passagesToQuestions = ["P1": ["P1 Q1", "P1 Q2", "P1 Q3"], "P2": ["P2 Q1", "P2 Q2", "P2 Q3"]]
+    var questionsToAnswers = ["P1 Q1": ["P1 Q1 A1", "P1 Q1 A2", "P1 Q1 A3", "P1 Q1 A4"], "P1 Q2": ["P1 Q2 A1", "P1 Q2 A2", "P1 Q2 A3", "P1 Q2 A4"]]
+    // if answer is in question1ADecoys, then the user answer is incorrect
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        passageLabel.text = questionMapDic.keys.first
-        questionLabel.text = questionMapDic["PassageA"]?.keys.first
-        answerLabel.text = questionMapDic["PassageA"]![questionLabel.text!]
+        let questionIndex = 0
+        let passage = passages[0]
+        passageLabel.text = passage
+        questionLabel.text = passagesToQuestions[passage]?[questionIndex]
+        let question = passagesToQuestions[passage]?[questionIndex]
 
+        var answerArray = questionsToAnswers[question!]
+        correctAnswer = questionsToAnswers[question!]?[0]
+        answerArray?.remove(at: 0)
+        wrongAnswerOneButtonOutlet.setTitle(answerArray?[0], for: .normal)
+        wrongAnswerTwoButtonOutlet.setTitle(answerArray?[1], for: .normal)
+        wrongAnswerThreeButtonOutlet.setTitle(answerArray?[2], for: .normal)
+        correctAnswerButtonOutlet.setTitle(correctAnswer, for: .normal)
+
+
+        
+        
+   
+        
+    
+        
     }
 
     override func didReceiveMemoryWarning() {

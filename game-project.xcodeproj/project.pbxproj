@@ -16,6 +16,7 @@
 		FE23C89320F848EA005A977D /* speechBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = FE23C89220F848EA005A977D /* speechBubble.png */; };
 		FE23C89520F850EB005A977D /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE23C89420F850EB005A977D /* LeaderboardView.swift */; };
 		FE23C89720F85230005A977D /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE23C89620F85230005A977D /* LeaderboardViewController.swift */; };
+		FE87DBF9218E0E4D0058B00A /* NounLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE87DBF8218E0E4D0058B00A /* NounLessonViewController.swift */; };
 		FE974A6820D6D2440091ED1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A6720D6D2440091ED1D /* AppDelegate.swift */; };
 		FE974A6A20D6D2440091ED1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A6920D6D2440091ED1D /* ViewController.swift */; };
 		FE974A6D20D6D2440091ED1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE974A6B20D6D2440091ED1D /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		FE974A8220DA06220091ED1D /* GrammarOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A8120DA06220091ED1D /* GrammarOneViewController.swift */; };
 		FE974A8420DA06440091ED1D /* VocabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A8320DA06440091ED1D /* VocabOneViewController.swift */; };
 		FE974A8620DA06650091ED1D /* ComprehensionOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE974A8520DA06650091ED1D /* ComprehensionOneViewController.swift */; };
+		FE9B6976214EC86D000CAE49 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B6975214EC86D000CAE49 /* HomeViewController.swift */; };
 		FE9F9DCD20E68D5C001C234E /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9F9DCC20E68D5C001C234E /* AnimationView.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,7 @@
 		FE23C89220F848EA005A977D /* speechBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speechBubble.png; sourceTree = SOURCE_ROOT; };
 		FE23C89420F850EB005A977D /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
 		FE23C89620F85230005A977D /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		FE87DBF8218E0E4D0058B00A /* NounLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NounLessonViewController.swift; sourceTree = "<group>"; };
 		FE974A6420D6D2440091ED1D /* game-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "game-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE974A6720D6D2440091ED1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE974A6920D6D2440091ED1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		FE974A8120DA06220091ED1D /* GrammarOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarOneViewController.swift; sourceTree = "<group>"; };
 		FE974A8320DA06440091ED1D /* VocabOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabOneViewController.swift; sourceTree = "<group>"; };
 		FE974A8520DA06650091ED1D /* ComprehensionOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComprehensionOneViewController.swift; sourceTree = "<group>"; };
+		FE9B6975214EC86D000CAE49 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FE9F9DCC20E68D5C001C234E /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +115,8 @@
 				FE974A6720D6D2440091ED1D /* AppDelegate.swift */,
 				FE974A6920D6D2440091ED1D /* ViewController.swift */,
 				FE974A6B20D6D2440091ED1D /* Main.storyboard */,
+				FE87DBF8218E0E4D0058B00A /* NounLessonViewController.swift */,
+				FE9B6975214EC86D000CAE49 /* HomeViewController.swift */,
 				FE23C89620F85230005A977D /* LeaderboardViewController.swift */,
 				FE974A8120DA06220091ED1D /* GrammarOneViewController.swift */,
 				FE974A8320DA06440091ED1D /* VocabOneViewController.swift */,
@@ -262,6 +268,7 @@
 				FE23C89520F850EB005A977D /* LeaderboardView.swift in Sources */,
 				FE974A8420DA06440091ED1D /* VocabOneViewController.swift in Sources */,
 				FE974A8020DA05ED0091ED1D /* CategoryViewController.swift in Sources */,
+				FE87DBF9218E0E4D0058B00A /* NounLessonViewController.swift in Sources */,
 				FE974A8620DA06650091ED1D /* ComprehensionOneViewController.swift in Sources */,
 				FE974A7C20DA05A30091ED1D /* LoginViewController.swift in Sources */,
 				FE974A6A20D6D2440091ED1D /* ViewController.swift in Sources */,
@@ -270,6 +277,7 @@
 				FE23C89720F85230005A977D /* LeaderboardViewController.swift in Sources */,
 				FE974A6820D6D2440091ED1D /* AppDelegate.swift in Sources */,
 				FE9F9DCD20E68D5C001C234E /* AnimationView.swift in Sources */,
+				FE9B6976214EC86D000CAE49 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
